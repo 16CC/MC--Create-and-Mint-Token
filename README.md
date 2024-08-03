@@ -62,8 +62,9 @@ contract ERCToken is ERC20, Ownable {
 1. Compile the Contract: Use a Solidity compiler (like solc or an IDE like Remix).
 2. Deploy the Contract: Deploy the contract to an Ethereum network using a tool like Hardhat, Truffle, or Remix.
 3. Interact with the Contract:
-- Use the createTokens function to mint new tokens (only callable by the contract owner).
-- Use the destroyTokens function to burn your own tokens.
+- Use the mintToken function to mint new tokens (only callable by the contract owner).
+- Use the burnToken function to burn your own tokens.
+- Use the transfer fucntion to transfer tokens.
 
 ## Author
 Clyde Calub
